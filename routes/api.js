@@ -8,7 +8,7 @@ router.use("/auth", auth);
 
 router.get('/', async (req, res) => {
     try {
-        res.render('home');
+        res.render('index');
     } catch (err) {
         res.status(500).send({ msg: err.message })
     }
