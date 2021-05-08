@@ -6,7 +6,7 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 const session = require('express-session');
 const config = require('./config/config.js');
-const api = require('./routes/api');
+const api = require('./api/api');
  
 
 
